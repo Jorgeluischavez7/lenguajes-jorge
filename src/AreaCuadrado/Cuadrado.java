@@ -6,16 +6,22 @@ package AreaCuadrado;
  * @author JorgeLuis
  */
 public class Cuadrado {
-    private int lado;
+    private float lado;
+    //Constructor por defecto public Cuadrado(){}
     
-    public void setLado(int lado){
+    public Cuadrado (float lado){//Aqui se declara un constructor para iniciar el atributo (lado).
         this.lado=lado;
     }
-    public int getLado(){
+    public Cuadrado (){}
+    
+    public void setLado(float lado){
+        this.lado=lado;
+    }
+    public float getLado(){
         return lado;
     }
-    public int calcularArea(){
-        int area=lado*lado;
+    public float calcularArea(){
+        float area=lado*lado;
         return area;
     }
 }
