@@ -9,10 +9,15 @@ public class Cuadrado {
     private float lado;
     //Constructor por defecto public Cuadrado(){}
     
-    public Cuadrado (float lado){//Aqui se declara un constructor para iniciar el atributo (lado).
+    /**
+     *Este constructor tiene un argumento de tipo flotante  
+     * @param lado El parametro que debes ingresar es el valor del lado de tu cuadrado
+     */
+    
+    public Cuadrado (float lado){
         this.lado=lado;
     }
-    public Cuadrado (){}
+    public Cuadrado (){}//constructor por defecto, se crea proque desaparece por el constructor de arriba
     
     public void setLado(float lado){
         this.lado=lado;
@@ -25,3 +30,5 @@ public class Cuadrado {
         return area;
     }
 }
+/**comentario de tipo documentacion
+ */
