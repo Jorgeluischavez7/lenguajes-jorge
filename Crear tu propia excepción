@@ -1,3 +1,7 @@
 1.- Crear la clase siguiendo la convencion de nombres, para la convencion verificar que va a validar 
 la excepción; En este caso  NUMEROS NO NEGATIVOS, y darle ese nombre seguido de la palabra Excepción.
+    (NumeroNoNegativoException)  Nombre de la nueva clase.
+2.- En una clase separada, crear una clase validadora.
+    ValidarValorNoNegativo.
+
 
