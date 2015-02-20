@@ -33,6 +33,7 @@ public class Arreglos1 {
         try{
         System.out.println(a/b);//Excepcion tipo aritmetico
         }
+        //Todas la Excepciones heredan de la clase throwable
         catch(Throwable e){// La (e) es de exception
             System.out.println(e.getMessage());//get Message es para saber el tipo de error o la excepcion que lanzo
         }// EXCEPCION MAMA DE TODAS ES Throwable

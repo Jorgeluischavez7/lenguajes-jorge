@@ -12,9 +12,11 @@ public class Cuadrado {
     /**
      *Este constructor tiene un argumento de tipo flotante  
      * @param lado El parametro que debes ingresar es el valor del lado de tu cuadrado
+     * @throws AreaCuadrado.NumeroNoNegativoException
      */
     
-    public Cuadrado (float lado){
+    public Cuadrado (float lado)throws NumeroNoNegativoException{ 
+        ValidarValorNoNegativo.validar(lado);
         this.lado=lado;
     }
     public Cuadrado (){}//constructor por defecto, se crea proque desaparece por el constructor de arriba

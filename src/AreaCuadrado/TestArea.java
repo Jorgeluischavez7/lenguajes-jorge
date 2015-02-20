@@ -12,7 +12,7 @@ public class TestArea {
      */
     public static void main(String[] args) {
         Cuadrado c=new Cuadrado();
-        c.setLado(4);
+        c.setLado(-2);
         System.out.println("El area del cudrado es "+ c.calcularArea());
     }
 }
