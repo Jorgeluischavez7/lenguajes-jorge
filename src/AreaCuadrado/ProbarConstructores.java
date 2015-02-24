@@ -21,7 +21,7 @@ public class ProbarConstructores {
         double dedos=45.2;//con un decimal java lo convierte en Double
         int i2=300;
         
-        Cuadrado c=new Cuadrado((float)dedos);//Casting dentro del constructor
+        //Cuadrado c=new Cuadrado((float)dedos);//Casting dentro del constructor
         
     }
 }
