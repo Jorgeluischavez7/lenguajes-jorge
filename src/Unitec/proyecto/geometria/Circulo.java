@@ -18,6 +18,7 @@ public class Circulo implements Superficies {// se implementa la supercalse Supe
     //para calculo se quita para que marque error porque no tiene la clase calcularArea Implementada
     
     public float calcularArea(){
+        System.out.print("El area del Circulo es: ");
         return 3.1416f*radio*radio;
     }
 
