@@ -30,16 +30,43 @@ public class ProbarThreads {
          }
          );
           Relojito treloj=new Relojito();
-         
-         
+          
+          //________________________________________________________
+          //Tarea Threads
+          Thread nom1=new Thread(new Runnable(){
+              @Override
+              public void run(){
+                  try{Thread.sleep(3000);
+                      System.out.println("Josue");
+                  }catch(Exception e){}
+              }
+          });
+          Thread nom2=new Thread(new Runnable(){
+              @Override
+              public void run(){
+                  try{Thread.sleep(6000);
+                      System.out.println("Robinson");        
+                  }catch(Exception e){}
+              }
+          });
+            Thread nom3=new Thread(new Runnable(){
+              @Override
+              public void run(){
+                  try{Thread.sleep(9000);
+                      System.out.println("Charly"); 
+                  }catch(Exception e){}
+              }
+          });
          
         //Paso 2. Inicializado
-        t1.start();
-        t11.start();
-        t2.start();
-        t3.start();
-        treloj.start();
-       
+        //t1.start();
+        //t11.start();
+       // t2.start();
+        //t3.start();
+        //treloj.start();
+          nom1.start();
+          nom2.start();
+          nom3.start();
     }
     
 }
