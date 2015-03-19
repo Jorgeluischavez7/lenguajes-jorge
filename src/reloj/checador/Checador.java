@@ -39,9 +39,9 @@ public class Checador extends javax.swing.JFrame {
         jLabel1.setText("Checador");
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel2.setText("gfhjfgh");
+        jLabel2.setText("hora");
 
-        jButton1.setText("jButton1");
+        jButton1.setText("Checar");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -92,7 +92,7 @@ public class Checador extends javax.swing.JFrame {
       int hora=cal.get(Calendar.HOUR_OF_DAY);
       int minuto=cal.get(Calendar.MINUTE);
       int segundo=cal.get(Calendar.SECOND);
-      jLabel2("La hora es: " + hora +":"+minuto+":"+segundo);
+      jLabel2.action("La hora es: " + hora +":"+minuto+":"+segundo);
       
       Thread.sleep(1000);
   }catch(Exception e){}
